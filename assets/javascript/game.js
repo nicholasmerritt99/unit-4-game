@@ -11,28 +11,28 @@ $( document ).ready(function(){
     var losses = 0;
    
 
-  $('#numberWins').text(wins);
-  $('#numberLosses').text(losses);
-  $('#randomNumber').text(Random);
-
-  function winner(){
-  alert("No way! You won!");
-    wins++; 
     $('#numberWins').text(wins);
-    reset();
-  }
-
-  function loser(){
-  alert ("I will always win! You lose!");
-    losses++;
     $('#numberLosses').text(losses);
-    reset()
-  }
+    $('#randomNumber').text(Random);
+
+    function winner(){
+    alert("No way! You won!");
+        wins++; 
+        $('#numberWins').text(wins);
+        reset();
+    }
+
+    function loser(){
+    alert ("I will always win! You lose!");
+        losses++;
+        $('#numberLosses').text(losses);
+        reset()
+    }
 
     $('#crystalOne').on ('click', function(){
       userTotal = userTotal + num1;
       $('#finalScore').text(userTotal); 
-            //sets win/lose conditions
+            
           if (userTotal == Random){
             winner();
           }
