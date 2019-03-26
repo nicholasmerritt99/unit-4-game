@@ -2,3 +2,55 @@
     width: 120px;
     height: 120px;
 }
+
+body {
+    background-image: url('../images/crystalbackground.jpg');
+    border-color: white;
+  }
+
+  .instructions2{
+      color: yellow;
+      font-size: 20px;
+  }
+
+  .instructions{
+    color: yellow;
+    font-size: 30px;
+    position: fixed;
+    top: 10%;
+    left: 30%;
+  }
+
+  .header{
+      color: green;
+      position: fixed;
+      top: 0%;
+      left: 40%;
+  }
+
+  .numberToMatch{
+      color: red;
+      font-size: 25px;
+      position: fixed;
+      top: 80%;
+      left: 55%;
+  }
+
+  .winsAndLosses{
+      color: pink;
+      font-size: 35px;
+  }
+
+  .userTotal{
+      color: red;
+      font-size: 25px;
+      position: fixed;
+      top: 80%;
+      left: 15%;
+  }
+
+  .crystals{
+      position: fixed;
+      top: 55%;
+      left: 30%;
+  }
