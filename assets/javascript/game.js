@@ -1,7 +1,7 @@
 $( document ).ready(function(){
 
 
-    var Random= Math.floor(Math.random()* 99 + 19)
+    var Random= Math.floor(Math.random()* 80) + 19
     var num1= Math.floor(Math.random()* 15 + 1)
     var num2= Math.floor(Math.random()* 15 + 1)
     var num3= Math.floor(Math.random()* 15 + 1)

@@ -1,6 +1,6 @@
 .crystalImage{
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
 }
 
 body {
@@ -37,7 +37,7 @@ body {
   }
 
   .winsAndLosses{
-      color: pink;
+      color: lightblue;
       font-size: 35px;
   }
 
